@@ -5,17 +5,17 @@ import { LegalArticle } from "@/components/legal-article";
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
-  title: "Terms of Service",
+  title: "Delete your account",
   description:
-    "The terms that apply when you use the Tunelingo app and website: accounts, subscriptions and credits, your songs, acceptable use and liability.",
-  path: "/terms",
+    "How to delete your TuneLingo account and data — in the app or by email, without the app installed — including what is deleted and what is retained.",
+  path: "/delete-account",
 });
 
 const markdown = fs.readFileSync(
-  path.join(process.cwd(), "app", "terms", "TERMS_OF_SERVICE.md"),
+  path.join(process.cwd(), "app", "delete-account", "DELETE_ACCOUNT.md"),
   "utf8",
 );
 
-export default function TermsPage() {
+export default function DeleteAccountPage() {
   return <LegalArticle markdown={markdown} />;
 }

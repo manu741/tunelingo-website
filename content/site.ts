@@ -167,6 +167,7 @@ export const FOOTER_COLUMNS = [
     links: [
       { label: "Privacy policy", href: "/privacy" },
       { label: "Terms of service", href: "/terms" },
+      { label: "Delete your account", href: "/delete-account" },
     ],
   },
 ];
