@@ -51,6 +51,7 @@ You can also buy one-time **credit bundles**:
 - Bundle credits are prepaid song-generation credits. They **do not expire** and **remain yours if a subscription lapses or is cancelled**.
 - Discounted **member pricing** for bundles is available only while you hold an active Starter or Plus subscription.
 - Credits have no monetary value, are not exchangeable for cash, and are non-transferable. They can only be spent on song generation inside the Service.
+- We may occasionally grant **free promotional credits** (for example, a welcome credit when you create an account). Promotional credits behave like bundle credits unless we state otherwise when granting them, and promotional offers may be changed or withdrawn at any time for new accounts.
 
 ---
 
