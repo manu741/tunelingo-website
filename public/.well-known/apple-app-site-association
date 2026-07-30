@@ -1,0 +1,10 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["7DLSFFNB4P.com.dombyte.tunelingo"],
+        "components": [{ "/": "/confirm*" }]
+      }
+    ]
+  }
+}

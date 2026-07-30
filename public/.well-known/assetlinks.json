@@ -1,0 +1,11 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.dombyte.tunelingo",
+      "sha256_cert_fingerprints":
+        ["C5:40:77:56:B6:B1:43:7D:C4:76:2F:19:B9:F0:C6:2D:E4:31:64:F2:C4:1B:11:12:AC:7A:89:05:BF:30:36:37"]
+    }
+  }
+]
