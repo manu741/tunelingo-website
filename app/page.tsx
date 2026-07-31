@@ -12,10 +12,15 @@ import {
   softwareAppJsonLd,
 } from "@/lib/structured-data";
 
-export const metadata: Metadata = pageMetadata({
-  description: SITE.description,
-  path: "/",
-});
+export const metadata: Metadata = {
+  ...pageMetadata({
+    description: SITE.description,
+    path: "/",
+  }),
+  // Home <title> is exactly the brand name; `absolute` bypasses the layout's
+  // title template. The tagline stays in description / og tags.
+  title: { absolute: SITE.name },
+};
 
 export default function Home() {
   return (

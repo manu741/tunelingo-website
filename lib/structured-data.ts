@@ -4,10 +4,10 @@ export function organizationJsonLd() {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
-    name: SITE.company,
+    name: SITE.name,
+    legalName: SITE.company,
     url: SITE.url,
     logo: `${SITE.url}/logo-icon.png`,
-    brand: { "@type": "Brand", name: SITE.name },
   };
 }
 
@@ -28,7 +28,12 @@ export function softwareAppJsonLd() {
     description: SITE.description,
     applicationCategory: "EducationalApplication",
     operatingSystem: "iOS, Android",
-    author: { "@type": "Organization", name: SITE.company, url: SITE.url },
+    author: {
+      "@type": "Organization",
+      name: SITE.name,
+      legalName: SITE.company,
+      url: SITE.url,
+    },
     offers: { "@type": "Offer", price: "0", priceCurrency: "EUR" },
   };
 }
