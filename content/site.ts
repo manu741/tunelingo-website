@@ -9,8 +9,8 @@ export const SITE = {
     "Learn languages through AI music. Original songs, karaoke lyrics, flashcards that stick.",
 };
 
-// Swap to true once a real app screenshot exists at public/screenshots/hero.png
-export const HAS_HERO_SCREENSHOT = false;
+// Real app screenshot at public/screenshots/hero.png
+export const HAS_HERO_SCREENSHOT = true;
 
 export const NAV_LINKS = [
   { label: "How it works", href: "/#how" },

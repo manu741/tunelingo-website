@@ -39,8 +39,8 @@ export function PhoneMockup() {
         <div className="relative h-full w-full overflow-hidden rounded-[34px] bg-[#0d0d17]">
           {HAS_HERO_SCREENSHOT ? (
             <Image
-              src="/screenshots/hero.png"
-              alt="Tunelingo app showing a karaoke lyrics screen"
+              src="/screenshots/hero.png?v=2"
+              alt="Tunelingo app showing a freshly generated song ready to play"
               width={278}
               height={598}
               preload

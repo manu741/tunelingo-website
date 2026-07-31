@@ -42,7 +42,11 @@ function PlayLogo() {
   );
 }
 
-// Placeholder badges until the app is live — intentionally not links.
+const PLAY_STORE_URL =
+  "https://play.google.com/store/apps/details?id=com.dombyte.tunelingo";
+
+// The App Store badge is a placeholder until the iOS app is live —
+// intentionally not a link.
 export function StoreBadges({
   variant = "hero",
 }: {
@@ -71,20 +75,22 @@ export function StoreBadges({
           </span>
         </span>
       </div>
-      <div
-        title="Coming soon"
-        className={`flex min-w-[170px] cursor-default items-center gap-3 rounded-[14px] px-[22px] py-2.5 ${playClasses}`}
+      <a
+        href={PLAY_STORE_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+        className={`flex min-w-[170px] items-center gap-3 rounded-[14px] px-[22px] py-2.5 transition-colors hover:bg-white/10 ${playClasses}`}
       >
         <PlayLogo />
         <span className="flex flex-col items-start">
           <span className="text-[11px] font-semibold tracking-[0.4px] text-text-3">
-            Coming soon on
+            Get it on
           </span>
           <span className="text-[19px] font-bold leading-[1.15] text-text">
             Google Play
           </span>
         </span>
-      </div>
+      </a>
     </div>
   );
 }
