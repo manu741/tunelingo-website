@@ -7,7 +7,7 @@ import { pageMetadata } from "@/lib/seo";
 export const metadata: Metadata = pageMetadata({
   title: "Delete your account",
   description:
-    "How to delete your TuneLingo account and data — in the app or by email, without the app installed — including what is deleted and what is retained.",
+    "How to delete your Tunelingo account and data — in the app or by email, without the app installed — including what is deleted and what is retained.",
   path: "/delete-account",
 });
 

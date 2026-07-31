@@ -1,14 +1,14 @@
-# Delete your TuneLingo account
+# Delete your Tunelingo account
 
 **Last updated:** 25 July 2026
 
-This page applies to **TuneLingo**, the language-learning app that generates personalized AI songs, published on Google Play and the App Store by **Dombyte Studio**. It explains how to delete your TuneLingo account and the data linked to it — either in the app, or by email if you no longer have the app installed.
+This page applies to **Tunelingo**, the language-learning app that generates personalized AI songs, published on Google Play and the App Store by **Dombyte Studio**. It explains how to delete your Tunelingo account and the data linked to it — either in the app, or by email if you no longer have the app installed.
 
 ---
 
 ## Delete your account in the app
 
-1. Open TuneLingo and go to **Settings → Delete account**.
+1. Open Tunelingo and go to **Settings → Delete account**.
 2. When you submit the request, you are signed out of your account.
 3. A **14-day recovery window** follows. If you sign back in during this window, your account and all your data are fully restored and the deletion is cancelled.
 4. After 14 days, the deletion is **permanent and cannot be undone**.
@@ -17,7 +17,7 @@ This page applies to **TuneLingo**, the language-learning app that generates per
 
 You do not need the app installed to delete your account.
 
-Email [legal@tunelingo.app](mailto:legal@tunelingo.app?subject=Account%20deletion%20request) **from the email address linked to your TuneLingo account** and ask for your account to be deleted. Clicking the link fills in the subject line ("Account deletion request") automatically.
+Email [legal@tunelingo.app](mailto:legal@tunelingo.app?subject=Account%20deletion%20request) **from the email address linked to your Tunelingo account** and ask for your account to be deleted. Clicking the link fills in the subject line ("Account deletion request") automatically.
 
 - We verify your identity by your control of that email address; we cannot act on requests sent from a different address.
 - Requests are handled within one month.
@@ -48,4 +48,4 @@ Some data is kept after your account is deleted, for the following reasons:
 
 ## Privacy policy
 
-For full details, see the [TuneLingo Privacy Policy](https://tunelingo.app/privacy). Its **"Deleting your account"** section is the authoritative description of the deletion process; in case of any difference, the privacy policy prevails.
+For full details, see the [Tunelingo Privacy Policy](https://tunelingo.app/privacy). Its **"Deleting your account"** section is the authoritative description of the deletion process; in case of any difference, the privacy policy prevails.

@@ -1,11 +1,11 @@
-# TuneLingo Privacy Policy
+# Tunelingo Privacy Policy
 
 **Effective date:** 25 July 2026
 **Last updated:** 25 July 2026
 
-TuneLingo is a language-learning app that generates personalized songs to help you learn languages. It is operated by **Dombyte Studio**, established in the Netherlands and registered with the Dutch Chamber of Commerce (KvK) under number 42083302 ("TuneLingo", "we", "us", "our"). Dombyte Studio is the data controller for the personal data described in this policy.
+Tunelingo is a language-learning app that generates personalized songs to help you learn languages. It is operated by **Dombyte Studio**, established in the Netherlands and registered with the Dutch Chamber of Commerce (KvK) under number 42083302 ("Tunelingo", "we", "us", "our"). Dombyte Studio is the data controller for the personal data described in this policy.
 
-This policy explains what data we collect when you use the TuneLingo mobile app and website, why we collect it, who we share it with, how long we keep it, and the rights you have over it.
+This policy explains what data we collect when you use the Tunelingo mobile app and website, why we collect it, who we share it with, how long we keep it, and the rights you have over it.
 
 **Contact:** [legal@tunelingo.app](mailto:legal@tunelingo.app)
 
@@ -125,7 +125,7 @@ We share personal data only with the service providers below, only to the extent
 
 | Provider | Purpose | Data involved | Location |
 |---|---|---|---|
-| **Supabase** | Database, authentication, file storage, and server-side functions — the core backend of TuneLingo | All account, profile, content, activity, and purchase-state data | Hosted in the **EU** |
+| **Supabase** | Database, authentication, file storage, and server-side functions — the core backend of Tunelingo | All account, profile, content, activity, and purchase-state data | Hosted in the **EU** |
 | **Amplitude** | Product analytics | Usage events, internal user ID, limited user properties (Section 4) | **EU** data residency |
 | **Google Firebase (Crashlytics)** | Crash and error reporting | Crash reports, device/OS/app version, internal user ID | Google infrastructure (may include the US) |
 | **RevenueCat** | In-app purchase and subscription management | Internal user ID, purchase history, subscription status | US |
@@ -225,7 +225,7 @@ No system is perfectly secure. If we become aware of a data breach affecting you
 
 ## 11. Children
 
-TuneLingo is not directed at children under 13, and you must be at least **13 years old** (or older where your country sets a higher minimum age for digital consent) to create an account. We do not knowingly collect personal data from children under 13. If you believe a child under 13 has created an account, contact [legal@tunelingo.app](mailto:legal@tunelingo.app) and we will delete it.
+Tunelingo is not directed at children under 13, and you must be at least **13 years old** (or older where your country sets a higher minimum age for digital consent) to create an account. We do not knowingly collect personal data from children under 13. If you believe a child under 13 has created an account, contact [legal@tunelingo.app](mailto:legal@tunelingo.app) and we will delete it.
 
 ---
 
@@ -248,7 +248,7 @@ We currently send only transactional and service emails (account confirmation, p
 
 ## 14. Changes to this policy
 
-We may update this policy as the app evolves — for example, if we add features or change providers. The "Last updated" date at the top always reflects the current version. For material changes, we will notify you in the app or by email before the changes take effect. Continued use of TuneLingo after a change takes effect constitutes acceptance of the updated policy.
+We may update this policy as the app evolves — for example, if we add features or change providers. The "Last updated" date at the top always reflects the current version. For material changes, we will notify you in the app or by email before the changes take effect. Continued use of Tunelingo after a change takes effect constitutes acceptance of the updated policy.
 
 ---
 

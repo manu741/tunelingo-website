@@ -33,12 +33,12 @@ export default function ContactPage() {
               href="mailto:support@tunelingo.app"
               className="text-cyan hover:text-cyan-hover"
             >
-              [support@tunelingo.app]
+              support@tunelingo.app
             </a>
           </p>
           <p className="mt-2 text-sm leading-[1.6] text-text-3">
-            Bugs, account issues, billing and credits. We reply within [2
-            business days].
+            Bugs, account issues, billing and credits. We reply within 5
+            business days.
           </p>
         </div>
         <div className="rounded-[20px] border border-surface-border bg-surface p-[26px]">
@@ -50,7 +50,7 @@ export default function ContactPage() {
               href="mailto:hello@tunelingo.app"
               className="text-cyan hover:text-cyan-hover"
             >
-              [hello@tunelingo.app]
+              hello@tunelingo.app
             </a>
           </p>
           <p className="mt-2 text-sm leading-[1.6] text-text-3">
