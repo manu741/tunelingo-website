@@ -17,7 +17,7 @@ export default function SubscribedPage() {
         </h1>
         <p className="mt-4 text-[17px] leading-[1.7] text-text-2">
           Your email is confirmed. We’ll keep you posted on new languages,
-          new genres and launch news.
+          new features and launch news.
         </p>
         <p className="mt-3 text-sm leading-[1.6] text-text-3">
           Every email includes an unsubscribe link, so you can hop off

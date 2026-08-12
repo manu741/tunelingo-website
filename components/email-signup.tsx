@@ -7,10 +7,10 @@ const ENDPOINT =
   "https://maldfunzxmrorsgyexam.supabase.co/functions/v1/email-list";
 
 const ERROR_MESSAGES = {
-  invalid_email: "That doesn’t look like an email address yet.",
-  rate_limited: "Too many attempts — please wait a bit and try again.",
+  invalid_email: "That doesn't look like an email address yet.",
+  rate_limited: "Too many attempts. Please wait a bit and try again.",
   email_send_failed:
-    "We couldn’t send the confirmation email. Please try again.",
+    "We couldn't send the confirmation email. Please try again.",
   internal_error: "Something went wrong on our end. Please try again.",
 } as const;
 
@@ -80,7 +80,7 @@ export function EmailSignup() {
   if (status === "sent") {
     return (
       <div className="rounded-2xl border border-cyan/30 bg-cyan/10 px-5 py-4 text-[15px] font-semibold text-cyan">
-        Almost done — check your inbox and click the confirmation link. 🎤
+        Almost done! Check your inbox and click the confirmation link. 🎤
       </div>
     );
   }
@@ -129,7 +129,7 @@ export function EmailSignup() {
         </p>
       )}
       <p className="mt-2.5 text-[13px] leading-[1.6] text-text-4">
-        Get early-access news about Tunelingo — learning languages through
+        Get early-access news about Tunelingo: learning languages through
         music. We’ll send you an email to confirm. Read our{" "}
         <Link href="/privacy" className="text-cyan hover:text-cyan-hover">
           privacy policy
