@@ -61,7 +61,7 @@ export default function Home() {
               karaoke-style, tap any word, and it sticks.
             </p>
             <div className="mt-8">
-              <StoreBadges />
+              <StoreBadges campaign="homepage" />
             </div>
             <p className="mt-4 text-sm text-text-4">
               Free sample song the moment you open it, no account, no card.
@@ -255,7 +255,7 @@ export default function Home() {
             sample song in the language you’re learning the moment you open it.
           </p>
           <div className="mt-7">
-            <StoreBadges variant="panel" />
+            <StoreBadges campaign="homepage" variant="panel" />
           </div>
         </div>
 

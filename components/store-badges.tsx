@@ -1,3 +1,6 @@
+import { StoreLink } from "@/components/store-link";
+import type { Campaign } from "@/lib/storeLinks";
+
 function AppleLogo() {
   return (
     <svg
@@ -42,14 +45,13 @@ function PlayLogo() {
   );
 }
 
-const PLAY_STORE_URL =
-  "https://play.google.com/store/apps/details?id=com.dombyte.tunelingo";
-
 // The App Store badge is a placeholder until the iOS app is live —
 // intentionally not a link.
 export function StoreBadges({
+  campaign,
   variant = "hero",
 }: {
+  campaign: Campaign;
   variant?: "hero" | "panel";
 }) {
   const playClasses =
@@ -75,10 +77,9 @@ export function StoreBadges({
           </span>
         </span>
       </div>
-      <a
-        href={PLAY_STORE_URL}
-        target="_blank"
-        rel="noopener noreferrer"
+      <StoreLink
+        platform="play"
+        campaign={campaign}
         className={`flex min-w-[170px] items-center gap-3 rounded-[14px] px-[22px] py-2.5 transition-colors hover:bg-white/10 ${playClasses}`}
       >
         <PlayLogo />
@@ -90,7 +91,7 @@ export function StoreBadges({
             Google Play
           </span>
         </span>
-      </a>
+      </StoreLink>
     </div>
   );
 }
