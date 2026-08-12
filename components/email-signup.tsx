@@ -1,7 +1,10 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useState } from "react";
+import { track } from "@/lib/analytics";
+import type { Campaign } from "@/lib/storeLinks";
 
 const ENDPOINT =
   "https://maldfunzxmrorsgyexam.supabase.co/functions/v1/email-list";
@@ -16,7 +19,8 @@ const ERROR_MESSAGES = {
 
 type ErrorKey = keyof typeof ERROR_MESSAGES;
 
-export function EmailSignup() {
+export function EmailSignup({ campaign }: { campaign: Campaign }) {
+  const pathname = usePathname();
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<"idle" | "sending" | "sent">("idle");
   const [error, setError] = useState<ErrorKey | null>(null);
@@ -58,7 +62,11 @@ export function EmailSignup() {
       });
 
       if (res.ok) {
+        // Same branch that shows the confirmation state: the event only
+        // counts signups the user was told succeeded. track() never
+        // throws, so it can't stop the confirmation from rendering.
         setStatus("sent");
+        track("email_signup", { page: pathname, utm_campaign: campaign });
         return;
       }
 

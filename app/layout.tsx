@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { Baloo_2, Spectral } from "next/font/google";
 import "./globals.css";
+import { AnalyticsScript } from "@/components/analytics-script";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { SITE } from "@/content/site";
@@ -93,6 +94,7 @@ export default function RootLayout({
         <SiteHeader />
         <main className="flex-1">{children}</main>
         <SiteFooter />
+        <AnalyticsScript />
       </body>
     </html>
   );

@@ -271,7 +271,7 @@ export default function Home() {
             </p>
           </div>
           <div className="min-w-0 flex-[1_1_380px]">
-            <EmailSignup />
+            <EmailSignup campaign="homepage" />
           </div>
         </div>
       </section>
