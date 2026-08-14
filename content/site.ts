@@ -61,6 +61,11 @@ export const FEATURES = [
     body: "Not someone else’s playlist, every song is composed for you, in your genre, about things worth singing about.",
   },
   {
+    glyph: "▶",
+    title: "Real songs from YouTube",
+    body: "Already have a favorite? Subscribers can import any song from YouTube, search or paste a link, and study it with the same synced lyrics, translations and flashcards.",
+  },
+  {
     glyph: "🎤",
     title: "Karaoke mode",
     body: "Line-by-line lyrics that follow the music, so your ears, eyes and voice learn together.",
