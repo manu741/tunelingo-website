@@ -2,11 +2,11 @@ export const SITE = {
   name: "Tunelingo",
   company: "Dombyte Studio",
   url: "https://tunelingo.app",
-  title: "Tunelingo — Learn a language by singing it",
+  title: "Tunelingo: Learn a Language with Music",
   description:
-    "Tunelingo turns language learning into music: original AI-composed songs at your level, karaoke lyrics, tap-to-translate words and spaced-repetition flashcards. Coming soon to iOS & Android.",
+    "Learn a language with music. Tunelingo writes original songs at your level, or turns YouTube songs you love into karaoke lessons with translations.",
   tagline:
-    "Learn languages through AI music. Original songs, karaoke lyrics, flashcards that stick.",
+    "Learn languages through music. Original AI songs, real songs from YouTube, karaoke lyrics, flashcards that stick.",
 };
 
 // Real app screenshot at public/screenshots/hero.png
@@ -39,22 +39,28 @@ export const LANGUAGES = [
 export const STEPS = [
   {
     n: "1",
-    title: "Pick your language & vibe",
-    body: "Spanish reggaetón? Japanese city pop? German rap? Choose what you’re learning and what you love to listen to.",
+    title: "Pick your song",
+    body: "Spanish reggaetón? Japanese city pop? Choose what you’re learning and what you love, and the AI writes an original track at your level. Or import a song you already love from YouTube.",
   },
   {
     n: "2",
-    title: "AI writes your song",
-    body: "An original track with lyrics tuned exactly to your level, catchy enough that you’ll actually want to replay it.",
+    title: "Sing it karaoke-style",
+    body: "Karaoke mode shows every line as it’s sung, whether the AI wrote the song or you brought it. Tap any word for an instant translation without leaving the music.",
   },
   {
     n: "3",
-    title: "Sing, tap, remember",
-    body: "Karaoke mode shows every line as it’s sung. Tap any word for an instant translation, then save the ones you want into your vocab.",
+    title: "Make it stick",
+    body: "Save the words you want into your vocab. Spaced repetition flashcards bring each one back right when you’re about to forget it.",
   },
 ];
 
-export const FEATURES = [
+export const FEATURES: {
+  glyph: string;
+  title: string;
+  body: string;
+  /** Renders the official YouTube icon in place of the text glyph. */
+  brand?: "youtube";
+}[] = [
   {
     glyph: "♪",
     title: "Original songs, made for you",
@@ -62,8 +68,9 @@ export const FEATURES = [
   },
   {
     glyph: "▶",
+    brand: "youtube",
     title: "Real songs from YouTube",
-    body: "Already have a favorite? Subscribers can import any song from YouTube, search or paste a link, and study it with the same synced lyrics, translations and flashcards.",
+    body: "Already have a favorite? Import songs from YouTube, search or paste a link, and study them with the same synced lyrics, translations and flashcards. Included with your subscription at no extra cost.",
   },
   {
     glyph: "🎤",
@@ -114,12 +121,11 @@ export const PRICING = [
   {
     step: "Step 3",
     title: "Keep the music going",
-    price: "Credits & plans",
+    price: "From $4.99/mo",
     priceAccent: false,
-    // The trailing "join the list to hear first." is rendered as a link in the pricing card.
-    body: "Buy song credits or subscribe when you’re hooked. Pricing lands soon,",
+    body: "Subscribe for new songs every month: Starter is $4.99 a month, Plus is $9.99, and yearly plans cost less. Or buy song credit bundles, starting at $4.99 for five.",
     highlighted: false,
-    hasEmailLink: true,
+    hasEmailLink: false,
   },
 ];
 
@@ -146,7 +152,7 @@ export const FAQS = [
   },
   {
     q: "What does it cost?",
-    a: "A sample song is free instantly, and signing up gets you one full song credit free, no card needed. After that you buy credits or subscribe; exact prices are coming soon. Join the email list to hear first.",
+    a: "A sample song is free instantly, and signing up gets you one full song credit free, no card needed. After that, subscribe for new songs every month: Starter is $4.99 a month, Plus is $9.99 a month, and both cost less on yearly plans. Prefer one-offs? Song credit bundles start at $4.99 for five songs. Importing songs from YouTube is included with your subscription at no extra cost.",
   },
 ];
 
@@ -175,11 +181,4 @@ export const FOOTER_COLUMNS = [
       { label: "Delete your account", href: "/delete-account" },
     ],
   },
-];
-
-export const SOCIALS = [
-  { label: "Instagram", short: "IG" },
-  { label: "TikTok", short: "TT" },
-  { label: "X", short: "X" },
-  { label: "YouTube", short: "YT" },
 ];

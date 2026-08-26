@@ -45,8 +45,6 @@ function PlayLogo() {
   );
 }
 
-// The App Store badge is a placeholder until the iOS app is live —
-// intentionally not a link.
 export function StoreBadges({
   campaign,
   variant = "hero",
@@ -63,20 +61,21 @@ export function StoreBadges({
     <div
       className={`flex flex-wrap gap-3.5 ${variant === "panel" ? "justify-center" : ""}`}
     >
-      <div
-        title="Coming soon"
-        className="flex min-w-[170px] cursor-default items-center gap-3 rounded-[14px] bg-text px-[22px] py-2.5"
+      <StoreLink
+        platform="appstore"
+        campaign={campaign}
+        className="flex min-w-[170px] items-center gap-3 rounded-[14px] bg-text px-[22px] py-2.5 transition-opacity hover:opacity-90"
       >
         <AppleLogo />
         <span className="flex flex-col items-start">
           <span className="text-[11px] font-semibold tracking-[0.4px] text-cta-text/65">
-            Coming soon on the
+            Download on the
           </span>
           <span className="text-[19px] font-bold leading-[1.15] text-cta-text">
             App Store
           </span>
         </span>
-      </div>
+      </StoreLink>
       <StoreLink
         platform="play"
         campaign={campaign}

@@ -1,7 +1,7 @@
 # Tunelingo Privacy Policy
 
 **Effective date:** 25 July 2026
-**Last updated:** 25 July 2026
+**Last updated:** 26 August 2026
 
 Tunelingo is a language-learning app that generates personalized songs to help you learn languages. It is operated by **Dombyte Studio**, established in the Netherlands and registered with the Dutch Chamber of Commerce (KvK) under number 42083302 ("Tunelingo", "we", "us", "our"). Dombyte Studio is the data controller for the personal data described in this policy.
 
@@ -17,7 +17,7 @@ This policy explains what data we collect when you use the Tunelingo mobile app 
 - Song generation uses third-party AI services. Your song request (language, level, genre, topic text, duration) is sent to those services **without your name, email, or any account identifier**.
 - Your data is stored on servers located in the **European Union**.
 - We use analytics (Amplitude, EU servers) and crash reporting (Firebase Crashlytics) to improve the app. Analytics events **never contain your prompts, lyrics, or any text you type**.
-- We do **not** show ads, we do **not** sell your personal data, and we do **not** track you across other companies' apps or websites.
+- We do **not** show ads, we do **not** sell your personal data, and we do **not** track you across other companies' apps or websites. (When you play an imported song, YouTube's embedded player may show YouTube's own ads — see Section 5.3.)
 - You can delete your account at any time in the app (Settings → Delete account). Deletion becomes permanent after a 14-day recovery window.
 
 ---
@@ -44,6 +44,7 @@ If you sign in with **Google**, we receive your Google account email address and
 
 - **Song requests** — the choices and text you enter when generating a song: target language, level, genre/mood, topic or custom idea text, and requested duration.
 - **Generated songs** — the resulting audio, cover image, lyrics, phonetics, and translations, saved to your library.
+- **Imported songs (Real songs)** — if you import a song from YouTube, we store the video's public metadata (title, channel name, thumbnail, duration, and video ID), the prepared lesson around it (synced lyrics, phonetics, translations, and vocabulary annotations), and your library link to it. Like generated songs, a prepared lesson is shared content: a song already prepared for the same language pair is reused rather than prepared again. See Section 5.3 for how YouTube data is handled.
 - **Saved vocabulary** — words you save from song lyrics, together with your flashcard study history (ratings and review schedule).
 - **Learning activity** — listening time, songs generated, study sessions completed, favorites, daily activity, and streaks.
 
@@ -144,7 +145,17 @@ When you generate a song, our servers (not your device) call the following servi
 
 The generated audio and images are then stored on our own EU-hosted storage; the app never communicates with these providers directly. Because your idea text is sent to these providers as generation content, **treat song prompts as public-ish content and keep personal details out of them** (Section 2.3).
 
-### 5.3 Other disclosures
+### 5.3 YouTube API Services (Real songs)
+
+The **Real songs** feature uses **YouTube API Services** to search for videos and to play them in the app. By using this feature you also agree to the [YouTube Terms of Service](https://www.youtube.com/t/terms). Google's handling of data in connection with the YouTube API and the embedded YouTube player is described in the [Google Privacy Policy](https://policies.google.com/privacy).
+
+- **What we access:** public video data only: search results and video metadata such as titles, channel names, thumbnails, durations, and video IDs. When you search for a song, your search terms are sent to YouTube through our servers to return results; these requests never include your name, email, or account identifier.
+- **What we never access:** your YouTube account. Tunelingo does not ask for YouTube permissions and does not connect to, read, or store your YouTube account data, watch history, subscriptions, or any other YouTube user data.
+- **Playback:** videos play in the official embedded YouTube player. We do not host, copy, download, or store the audio or video. While a video plays, YouTube may collect data as described in the Google Privacy Policy and may show YouTube's own ads; our no-ads commitment (Section 2.8) applies to Tunelingo itself, not to YouTube's player.
+- **Lyrics:** lyrics for imported songs are obtained from third-party lyrics sources. Those lookups contain song information (such as the title and artist), never your personal data.
+- **Retention:** YouTube video metadata stored on our servers is refreshed or deleted within 30 days, in line with YouTube API policies. Your library link to an imported song is deleted with your account (Section 8).
+
+### 5.4 Other disclosures
 
 We may disclose personal data if required by law, court order, or governmental authority, or where necessary to establish, exercise, or defend legal claims, or to protect the security of the service and its users. If Dombyte Studio is involved in a merger, acquisition, or asset sale, personal data may be transferred as part of that transaction; this policy would continue to apply until a new one takes effect.
 
@@ -168,6 +179,7 @@ Some of the providers listed above are located outside the European Economic Are
 | Crash reports (Crashlytics) | Retained for the limited period Firebase Crashlytics keeps crash data |
 | Purchase and transaction records | Retained as required by Dutch tax and bookkeeping law (in general, seven years), and by Apple, Google, and RevenueCat under their own policies |
 | Technical generation logs | Server-side logs of song-generation pipeline calls, used for debugging; the link to your account is removed when your account is deleted |
+| YouTube video metadata (Real songs) | Refreshed or deleted within 30 days (Section 5.3); your library link to an imported song is deleted with your account |
 | Anonymized deletion snapshot and exit reason | Retained without any link to your identity (Section 2.6) |
 | Support emails | Kept as long as needed to resolve your request and for a reasonable period afterwards |
 

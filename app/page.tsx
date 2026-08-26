@@ -17,10 +17,30 @@ export const metadata: Metadata = {
     description: SITE.description,
     path: "/",
   }),
-  // Home <title> is exactly the brand name; `absolute` bypasses the layout's
-  // title template. The tagline stays in description / og tags.
-  title: { absolute: SITE.name },
+  // `absolute` bypasses the layout's title template. Tunelingo must stay the
+  // first word: OAuth brand verification matches on the leading brand name.
+  title: { absolute: SITE.title },
 };
+
+// Official YouTube icon, full color per YouTube brand guidelines: red
+// rounded rectangle, white play triangle. Never tint or recolor it.
+function YouTubeIcon() {
+  return (
+    <svg
+      width="26"
+      height="26"
+      viewBox="0 0 576 512"
+      aria-hidden="true"
+      className="flex-none"
+    >
+      <path fill="#fff" d="M222 165l170 91-170 91z" />
+      <path
+        fill="#FF0000"
+        d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
+      />
+    </svg>
+  );
+}
 
 export default function Home() {
   return (
@@ -49,16 +69,16 @@ export default function Home() {
                 aria-hidden="true"
                 className="size-[7px] rounded-full bg-cyan"
               />
-              Coming soon to iOS &amp; Android
+              Out now on iOS &amp; Android
             </p>
             <h1 className="mt-[22px] font-serif text-[clamp(34px,10vw,46px)] font-bold leading-[1.07] tracking-[-0.5px] text-pretty md:text-[56px]">
-              Learn a language by{" "}
-              <span className="text-gradient">singing it</span>.
+              Learn a language with{" "}
+              <span className="text-gradient">music</span>.
             </h1>
             <p className="mt-5 max-w-[520px] text-[17px] leading-[1.6] text-pretty text-text-3 md:text-[19px]">
               Tunelingo writes an original song in the language you’re
-              learning, in a genre you actually love. Sing along
-              karaoke-style, tap any word, and it sticks.
+              learning, or turns a song you already love into a lesson. Sing
+              along karaoke-style, tap any word, and it sticks.
             </p>
             <div className="mt-8">
               <StoreBadges campaign="homepage" />
@@ -148,8 +168,18 @@ export default function Home() {
               key={feature.title}
               className="flex items-start gap-[18px] rounded-card border border-surface-border bg-surface p-[26px]"
             >
-              <div className="flex size-[42px] flex-none items-center justify-center rounded-[13px] border border-cyan/20 bg-cyan/10 text-lg font-bold text-cyan">
-                {feature.glyph}
+              <div
+                className={`flex size-[42px] flex-none items-center justify-center rounded-[13px] border text-lg font-bold ${
+                  feature.brand === "youtube"
+                    ? "border-white/10 bg-white/5"
+                    : "border-cyan/20 bg-cyan/10 text-cyan"
+                }`}
+              >
+                {feature.brand === "youtube" ? (
+                  <YouTubeIcon />
+                ) : (
+                  feature.glyph
+                )}
               </div>
               <div>
                 <h3 className="text-[17px] font-bold">{feature.title}</h3>
@@ -251,7 +281,7 @@ export default function Home() {
             Your first song is waiting
           </h2>
           <p className="mx-auto mt-3 max-w-[480px] text-base leading-[1.6] text-text-2">
-            Tunelingo is coming to the App Store and Google Play, with a free
+            Tunelingo is out now on the App Store and Google Play, with a free
             sample song in the language you’re learning the moment you open it.
           </p>
           <div className="mt-7">

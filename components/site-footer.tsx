@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { FOOTER_COLUMNS, SITE, SOCIALS } from "@/content/site";
+import { FOOTER_COLUMNS, SITE } from "@/content/site";
 
 export function SiteFooter() {
   return (
@@ -22,17 +22,6 @@ export function SiteFooter() {
           <p className="mt-3 max-w-[260px] text-sm leading-relaxed text-text-4">
             {SITE.tagline}
           </p>
-          <div className="mt-[18px] flex gap-2.5">
-            {SOCIALS.map((social) => (
-              <span
-                key={social.short}
-                title={`${social.label} (coming soon)`}
-                className="flex size-[34px] items-center justify-center rounded-full border border-white/10 bg-white/5 text-xs font-bold text-text-3"
-              >
-                {social.short}
-              </span>
-            ))}
-          </div>
         </div>
         {FOOTER_COLUMNS.map((column) => (
           <div

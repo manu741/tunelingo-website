@@ -32,14 +32,16 @@ export function FaqAccordion() {
                 ⌄
               </span>
             </button>
-            {isOpen && (
-              <div
-                id={`faq-answer-${i}`}
-                className="px-6 pb-[22px] text-[15px] leading-[1.65] text-text-3"
-              >
-                {faq.a}
-              </div>
-            )}
+            {/* Always in the DOM, toggled with `hidden`: crawlers and AI
+                assistants only see answer text that ships in the initial
+                HTML, and the FAQ is the page's main AEO asset. */}
+            <div
+              id={`faq-answer-${i}`}
+              hidden={!isOpen}
+              className="px-6 pb-[22px] text-[15px] leading-[1.65] text-text-3"
+            >
+              {faq.a}
+            </div>
           </div>
         );
       })}

@@ -37,8 +37,8 @@ export function playStoreUrl(campaign: Campaign): string {
 }
 
 /**
- * App Store URL with an Apple campaign token. The iOS app is not live
- * yet; this exists so call sites are already correct when it ships.
+ * App Store URL with an Apple campaign token. The `ct` value surfaces
+ * in App Store Connect acquisition reports.
  */
 export function appStoreUrl(campaign: Campaign): string {
   return `https://apps.apple.com/app/id${APP_STORE_ID}?ct=${encodeURIComponent(campaign)}&mt=8`;
