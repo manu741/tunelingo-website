@@ -40,6 +40,7 @@ Two parameters are fixed and never vary:
 | `/learn-japanese-with-music` | `japanese-page` |
 | `/learn-{language}-with-music` | `{language}-page` |
 | `/blog/{slug}` | `blog-{slug}` |
+| `/blog/duolingo-alternatives` | `blog-duolingo-alternatives` |
 
 ### Google Play
 

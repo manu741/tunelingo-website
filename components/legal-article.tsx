@@ -39,7 +39,9 @@ function MarkdownLink({
   );
 }
 
-const components: Components = {
+// Shared with the blog renderer (components/blog-article.tsx), which
+// overrides h1 (blog h1 comes from frontmatter) and img.
+export const markdownComponents: Components = {
   h1: ({ children }) => (
     <h1 className="font-serif text-[clamp(30px,8vw,38px)] font-bold leading-[1.12] text-text md:text-[42px]">
       {children}
@@ -106,7 +108,7 @@ export function LegalArticle({ markdown }: { markdown: string }) {
     <article className="mx-auto max-w-[720px] px-7 pb-10 pt-[72px] text-[15.5px] leading-[1.75] text-legal">
       <ReactMarkdown
         remarkPlugins={[remarkGfm, remarkBreaks]}
-        components={components}
+        components={markdownComponents}
       >
         {markdown}
       </ReactMarkdown>

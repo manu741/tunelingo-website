@@ -2,7 +2,7 @@ import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { ImageResponse } from "next/og";
 
-export const alt = "Tunelingo — Learn a language by singing it";
+export const alt = "Tunelingo: Learn a Language with Music";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -40,7 +40,7 @@ export default async function OpengraphImage() {
             Tunelingo
           </div>
           <div style={{ display: "flex", fontSize: 40, color: "#b9b9c6" }}>
-            Learn a language by&nbsp;
+            Learn a language with&nbsp;
             <span
               style={{
                 backgroundImage: "linear-gradient(90deg,#8b7cf8,#2dd4bf)",
@@ -49,7 +49,7 @@ export default async function OpengraphImage() {
                 fontWeight: 700,
               }}
             >
-              singing it.
+              music.
             </span>
           </div>
         </div>

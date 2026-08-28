@@ -3,12 +3,16 @@
 import { useState } from "react";
 import { FAQS } from "@/content/site";
 
-export function FaqAccordion() {
+export function FaqAccordion({
+  faqs = FAQS,
+}: {
+  faqs?: readonly { q: string; a: string }[];
+}) {
   const [open, setOpen] = useState(-1);
 
   return (
     <div className="flex flex-col gap-2.5">
-      {FAQS.map((faq, i) => {
+      {faqs.map((faq, i) => {
         const isOpen = open === i;
         return (
           <div

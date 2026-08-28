@@ -70,8 +70,8 @@ Rules:
 
 | URL | Primary target | Volume | Notes |
 |---|---|---|---|
-| `/` | learn a language with music, language learning app with music | ~110 | Exists, needs rework |
-| `/pricing` | is tunelingo free, tunelingo pricing | low | Conversion + AEO, resolves the "pricing lands soon" contradiction |
+| `/` | learn a language with music, language learning app with music | ~110 | Reworked Aug 2026 |
+| `/pricing` | is tunelingo free, tunelingo pricing | low | Conversion + AEO. Real pricing now on the homepage; a dedicated page is still worth building |
 
 ### Comparison posts (commercial intent, article format)
 
@@ -123,8 +123,9 @@ YouTube and Spotify, so it may be materially easier than Spanish.
 
 ## 4. Build order
 
-1. **Homepage rework.** Not a traffic driver, there is little traffic to drive. It is the
-   conversion destination for everything the blog earns, and the AEO anchor.
+1. ~~**Homepage rework.**~~ Done August 2026. Not a traffic driver, there is little traffic
+   to drive. It is the conversion destination for everything the blog earns, and the AEO
+   anchor.
 2. **`/blog/duolingo-alternatives`.** Biggest winnable term on the site.
 3. **`/pricing`.** Small, fast, removes a live contradiction.
 4. **Cluster A.** Generic rather than language specific, so it feeds the homepage.
@@ -136,7 +137,105 @@ Finish one cluster before starting the next. Scattering across topics delays res
 
 ---
 
-## 5. Reversed decisions, do not reintroduce
+## 5. Clusters and internal linking
+
+### Why this matters
+
+Google does not evaluate a page alone. When someone searches "does music help language
+learning", it checks whether the site also covers how to learn vocabulary from songs, why
+lyrics stick, learning by listening. Cover the whole journey and every keyword in the
+cluster becomes easier to rank for, including the competitive ones. That is topical
+authority, and it is also what makes AI assistants treat the site as a source worth
+citing.
+
+Internal linking is what turns four separate articles into a cluster. It has the best
+effort-to-value ratio of any SEO tactic here. **Do not skip it and do not defer it.**
+
+### Rules
+
+1. **Finish one cluster before starting the next.** Scattering across topics delays
+   results everywhere. Cluster A is four posts; all four ship before Cluster B starts.
+2. **Every post links down to a money page.** Usually `/`, sometimes `/pricing`.
+3. **Every post links across to the other posts in its cluster.**
+4. **Links are decided here, not inferred.** `relatedPosts` in a post's frontmatter is
+   filled from the map below. No tag-based or algorithmic relations.
+5. **Anchor text carries the target keyword** of the page being linked to, not "click
+   here" or "read more".
+6. **When a new post ships, update the posts that should link to it.** Links are
+   bidirectional by intent even though the markup is not.
+
+### Cluster A: music and memory
+
+```
+does-music-help-language-learning  <──┐
+        │                             │
+        ├──> best-way-to-learn-vocabulary
+        ├──> learn-a-language-by-listening
+        └──> why-song-lyrics-stick-in-your-head
+                     all four link down to  /
+```
+
+| Post | relatedPosts | Links down to |
+|---|---|---|
+| `does-music-help-language-learning` | `why-song-lyrics-stick-in-your-head`, `learn-a-language-by-listening` | `/` |
+| `why-song-lyrics-stick-in-your-head` | `does-music-help-language-learning`, `best-way-to-learn-vocabulary` | `/` |
+| `best-way-to-learn-vocabulary` | `why-song-lyrics-stick-in-your-head`, `does-music-help-language-learning` | `/` |
+| `learn-a-language-by-listening` | `does-music-help-language-learning`, `best-way-to-learn-vocabulary` | `/` |
+
+`does-music-help-language-learning` is the cluster hub. It has the most keywords (14) and
+the clearest question intent, so it takes the most inbound links.
+
+### Comparison posts
+
+These sit outside the informational clusters. They are mid-funnel and convert better, so
+they link down harder.
+
+| Post | relatedPosts | Links down to |
+|---|---|---|
+| `duolingo-alternatives` | `lingopie-alternatives`, `does-music-help-language-learning` | `/`, `/pricing` |
+| `lingopie-alternatives` | `duolingo-alternatives`, `does-music-help-language-learning` | `/`, `/pricing` |
+
+Comparison posts link to `/pricing` as well as `/`, because a visitor comparing apps is
+already asking what things cost.
+
+### Cluster B: Spanish
+
+Build later. `learn-spanish-with-music` is the hub.
+
+| Post | relatedPosts | Links down to |
+|---|---|---|
+| `learn-spanish-with-music` | `spanish-songs-for-beginners`, `spanish-songs-with-lyrics-and-translation` | `/` |
+| `spanish-songs-for-beginners` | `learn-spanish-with-music`, `learn-spanish-by-listening` | `/` |
+| `spanish-songs-with-lyrics-and-translation` | `learn-spanish-with-music`, `spanish-songs-for-beginners` | `/` |
+| `learn-spanish-by-listening` | `learn-spanish-with-music`, `spanish-songs-for-beginners` | `/` |
+
+Cluster B links across to Cluster A where relevant, for example from
+`learn-spanish-with-music` to `does-music-help-language-learning`. Cluster A does not need
+to link into Cluster B, since the generic posts should not be narrowed to one language.
+
+### Where keywords come from
+
+Each post's keyword set is a group from the Pass B research. `Tunelingo_Step5_PassB_Intent.xlsx`,
+Group members sheet, filtered by group id:
+
+| Post | Group | Keywords |
+|---|---|---|
+| `does-music-help-language-learning` | A5 | 14 |
+| `best-way-to-learn-vocabulary` | A7 | 15 |
+| `learn-a-language-by-listening` | A6 | 9 |
+| `why-song-lyrics-stick-in-your-head` | B13 | 4 |
+| `duolingo-alternatives` | A14 | 16 |
+| `lingopie-alternatives` | A13 | 15 |
+| `learn-spanish-with-music` | A8 + A9 | 31 |
+| `spanish-songs-for-beginners` | A10 | 12 |
+| `spanish-songs-with-lyrics-and-translation` | B2 | 13 |
+| `learn-spanish-by-listening` | A11 | 9 |
+
+One page owns one group. Two pages must never target the same group.
+
+---
+
+## 6. Reversed decisions, do not reintroduce
 
 - **Per-language money pages are cancelled.** `/learn-spanish-with-music` is a blog post,
   not a landing page, because that SERP is informational and media-owned.
@@ -147,7 +246,7 @@ Finish one cluster before starting the next. Scattering across topics delays res
 
 ---
 
-## 6. On-page checklist
+## 7. On-page checklist
 
 Every page, before it ships:
 
@@ -167,7 +266,7 @@ Every page, before it ships:
 
 ---
 
-## 7. AEO rules
+## 8. AEO rules
 
 AI assistants (ChatGPT, Perplexity, Gemini, AI Overviews) cite content they can parse.
 The same work that ranks in Google also earns citations, plus:
@@ -188,7 +287,7 @@ judge that content by search volume.
 
 ---
 
-## 8. Product facts that constrain copy
+## 9. Product facts that constrain copy
 
 From `PRODUCT_BRIEF.md`, which is the source of truth. The ones that bite most often:
 
@@ -213,7 +312,7 @@ From `PRODUCT_BRIEF.md`, which is the source of truth. The ones that bite most o
 
 ---
 
-## 9. Measurement
+## 10. Measurement
 
 - **Google Search Console** is the reporting layer: queries, impressions, clicks,
   positions. Check monthly.
@@ -222,8 +321,8 @@ From `PRODUCT_BRIEF.md`, which is the source of truth. The ones that bite most o
 - **Conversion rate** = Umami pageviews per URL against event counts. Supabase holds the
   actual signups and is the source of truth for who, not how many.
 - **Email is the top-funnel conversion.** Informational posts should lead with the email
-  capture, not the store link. Roughly half of readers cannot or will not install on the
-  spot.
+  capture, not the store link. Many readers will not install on the spot even though both
+  stores are now live.
 - **AI visibility**: monthly manual check. Ask the target questions in ChatGPT, Perplexity
   and Google in an incognito window, log whether Tunelingo appears and who does.
 
@@ -233,9 +332,8 @@ zero for months. That is the shape of the curve, not failure.
 
 ---
 
-## 10. Open items
+## 11. Open items
 
-- `meta keywords` tag still present. Google has ignored it since 2009. Harmless.
 - Store listings still say "not a catalog of real songs you have to search through",
   which contradicts the Real songs feature.
 - App Store Content Rights answer needs revisiting given third-party lyrics and embedded

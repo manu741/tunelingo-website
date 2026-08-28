@@ -33,15 +33,6 @@ export const metadata: Metadata = {
   },
   description: SITE.description,
   applicationName: SITE.name,
-  keywords: [
-    "language learning",
-    "learn a language by singing",
-    "AI songs",
-    "karaoke language learning",
-    "music language app",
-    "flashcards",
-    "spaced repetition",
-  ],
   openGraph: {
     type: "website",
     siteName: SITE.name,
