@@ -24,12 +24,16 @@ export const metadata: Metadata = {
 
 // Official YouTube icon, full color per YouTube brand guidelines: red
 // rounded rectangle, white play triangle. Never tint or recolor it.
+// The viewBox is cropped to the mark itself (it spans y 64–448 of the 512
+// source box) so the rendered logo height is the real 21px — YouTube's ToS
+// audit measures the visible mark, and requires it to be at least 20px tall
+// (the previous padded 26×26 box rendered the mark at only ~17.3px).
 function YouTubeIcon() {
   return (
     <svg
-      width="26"
-      height="26"
-      viewBox="0 0 576 512"
+      width="30"
+      height="21"
+      viewBox="14.9 64 546.2 384"
       aria-hidden="true"
       className="flex-none"
     >

@@ -1,7 +1,7 @@
 # Tunelingo Privacy Policy
 
 **Effective date:** 25 July 2026
-**Last updated:** 26 August 2026
+**Last updated:** 1 September 2026
 
 Tunelingo is a language-learning app that generates personalized songs to help you learn languages. It is operated by **Dombyte Studio**, established in the Netherlands and registered with the Dutch Chamber of Commerce (KvK) under number 42083302 ("Tunelingo", "we", "us", "our"). Dombyte Studio is the data controller for the personal data described in this policy.
 
@@ -18,6 +18,7 @@ This policy explains what data we collect when you use the Tunelingo mobile app 
 - Your data is stored on servers located in the **European Union**.
 - We use analytics (Amplitude, EU servers) and crash reporting (Firebase Crashlytics) to improve the app. Analytics events **never contain your prompts, lyrics, or any text you type**.
 - We do **not** show ads, we do **not** sell your personal data, and we do **not** track you across other companies' apps or websites. (When you play an imported song, YouTube's embedded player may show YouTube's own ads — see Section 5.3.)
+- The app stores information on your device (sign-in tokens, settings, and content caches), and the embedded YouTube player may place, access, or recognize cookies or similar technologies on your device — see Section 2.9.
 - You can delete your account at any time in the app (Settings → Delete account). Deletion becomes permanent after a 14-day recovery window.
 
 ---
@@ -79,6 +80,20 @@ If you email us, we receive your email address and the contents of your message,
 - **No advertising identifiers, no ads, no cross-app tracking.**
 - **No user-generated text in analytics.** Analytics events contain only predefined choices, counts, and flags — never your prompt text, lyrics, or search input.
 - We do **not sell** personal data and never have.
+
+### 2.9 Data stored on your device (cookies and similar technologies)
+
+The Tunelingo app stores, accesses, and collects information on your device to make the app work:
+
+- **Sign-in session tokens** — kept in your operating system's secure storage (Keychain on iOS, Keystore-backed storage on Android) so you stay signed in.
+- **Settings, preferences, and app state** — stored in the app's local storage so the app remembers your choices between sessions.
+- **Content caches** — generated song audio and cover images, and metadata for songs in your library (including YouTube video metadata such as titles and thumbnails for imported songs), cached locally so the app loads quickly and playback is smooth.
+- **Analytics device identifier** — the identifier described in Section 4, generated and stored on your device by the analytics SDK and reset when you sign out.
+- **Embedded YouTube player (Real songs)** — imported songs play in YouTube's official embedded player, which runs in a web view on your device. When you use it, **YouTube (Google) may place, access, or recognize cookies, local storage, or similar technologies on your device** and may collect device information, as described in the [Google Privacy Policy](https://policies.google.com/privacy). We do not control what the embedded player stores or reads.
+
+Data Tunelingo itself stores on your device is removed when you uninstall the app. Cookies or similar data stored through the embedded YouTube player are managed by your operating system's web view and by Google; you can clear them through your device's storage settings.
+
+The Tunelingo **website** uses cookieless, privacy-friendly analytics (no advertising cookies, no cross-site tracking).
 
 ---
 
@@ -152,6 +167,7 @@ The **Real songs** feature uses **YouTube API Services** to search for videos an
 - **What we access:** public video data only: search results and video metadata such as titles, channel names, thumbnails, durations, and video IDs. When you search for a song, your search terms are sent to YouTube through our servers to return results; these requests never include your name, email, or account identifier.
 - **What we never access:** your YouTube account. Tunelingo does not ask for YouTube permissions and does not connect to, read, or store your YouTube account data, watch history, subscriptions, or any other YouTube user data.
 - **Playback:** videos play in the official embedded YouTube player. We do not host, copy, download, or store the audio or video. While a video plays, YouTube may collect data as described in the Google Privacy Policy and may show YouTube's own ads; our no-ads commitment (Section 2.8) applies to Tunelingo itself, not to YouTube's player.
+- **On your device:** the embedded YouTube player runs in a web view on your device, and YouTube (Google) may place, access, or recognize cookies, local storage, or similar technologies on your device through it — see Section 2.9. The app also caches metadata of imported songs (titles, thumbnails) on your device so your library loads quickly.
 - **Lyrics:** lyrics for imported songs are obtained from third-party lyrics sources. Those lookups contain song information (such as the title and artist), never your personal data.
 - **Retention:** YouTube video metadata stored on our servers is refreshed or deleted within 30 days, in line with YouTube API policies. Your library link to an imported song is deleted with your account (Section 8).
 
@@ -185,7 +201,7 @@ Some of the providers listed above are located outside the European Economic Are
 
 **Shared songs:** because generated songs are shared, deduplicated content not owned by any single account (Section 2.3), the audio, lyrics, and cover of a song may remain in the catalog after you delete your account. Your personal link to the song — your library entry, favorites, and vocabulary — is deleted with your account.
 
-**On your device:** the app stores your session tokens in your device's secure storage, and caches song audio and app data locally so playback works smoothly. This local data never leaves your device and is removed when you uninstall the app.
+**On your device:** the app stores your session tokens in your device's secure storage, and caches song audio and app data locally so playback works smoothly (Section 2.9). This local data is removed when you uninstall the app. Cookies or similar data stored by the embedded YouTube player's web view are managed by your operating system and by Google (Sections 2.9 and 5.3).
 
 ---
 
