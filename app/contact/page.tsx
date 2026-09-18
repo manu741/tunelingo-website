@@ -63,7 +63,7 @@ export default function ContactPage() {
       <div className="mt-[18px] rounded-[20px] border border-surface-border bg-surface p-[26px]">
         <h2 className="text-[15px] font-bold">Quick answers</h2>
         <p className="mt-2 text-sm leading-[1.7] text-text-3">
-          Billing, levels, languages and free credits are covered in the{" "}
+          Billing, levels, languages and the free trial are covered in the{" "}
           <Link href="/#faq" className="text-cyan hover:text-cyan-hover">
             FAQ
           </Link>

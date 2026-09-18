@@ -1,7 +1,7 @@
 # Tunelingo Terms of Service
 
-**Effective date:** [RELEASE DATE]
-**Last updated:** [RELEASE DATE]
+**Effective date:** 18 September 2026
+**Last updated:** 18 September 2026
 
 These Terms of Service ("Terms") govern your use of the Tunelingo mobile application and website (the "Service"), operated by **Dombyte Studio**, established in the Netherlands and registered with the Dutch Chamber of Commerce (KvK) under number 42083302 ("Tunelingo", "we", "us", "our").
 

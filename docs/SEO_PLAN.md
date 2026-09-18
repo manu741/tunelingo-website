@@ -289,19 +289,33 @@ judge that content by search volume.
 
 ## 9. Product facts that constrain copy
 
-From `PRODUCT_BRIEF.md`, which is the source of truth. The ones that bite most often:
+From `PRODUCT_BRIEF.md`, which is the source of truth. Updated 2026-09-18 for v1.3.0, the
+Tunelingo Pro release. The ones that bite most often:
 
 - No em-dashes in marketing copy.
+- One plan: **Tunelingo Pro**, $6.99/month or $59.99/year (EUR base €5.99 / €54.99),
+  8 songs a month. Starter, Plus and the free signup credit are gone and must not appear
+  in new copy. Only quote USD or EUR prices.
 - Subscriptions grant "songs per month". Bundles grant "credits". Never call the
-  subscription allowance credits.
-- The free hook is exactly one free song, and it is a **generated** song. Real songs
-  require an active subscription. Any page targeting the translation space brings visitors
-  who hit a paywall on the thing they came for. Design the CTA accordingly.
-- **Never say "unlimited" imports.** The approved phrasing is "included with your
-  subscription at no extra cost".
+  subscription allowance credits. Credit bundles: 5 / 15 / 40 credits at $4.99 / $12.99 /
+  $33.99, Pro member prices "up to 40% off", valid from the first day of the trial.
+- The free hooks are the pre-made sample song (no account), the 7 day Pro trial, and one
+  free real-song import per account. There is **no free generated song**. Beyond the
+  free import, Real songs require Pro, so any page targeting the translation space
+  brings visitors who get one song and then hit a paywall. Design the CTA accordingly.
+- Trial copy always carries the price after the trial and the auto-renewal: "7 day free
+  trial, then $6.99 a month. Auto-renews. Cancel anytime." Write "7 day free trial"
+  without a hyphen, and never "free" on its own.
+- **Never say "unlimited"**, for imports or for generation. The approved phrasing is
+  "included with Pro at no extra cost" and "8 new songs a month".
 - Imported real songs are subscription access, not owned. Never "yours to keep",
   "yours forever", "permanent" or "downloaded". Those apply to generated songs and saved
-  vocabulary only.
+  vocabulary only. The one exception is the free first import, phrased exactly as "your
+  first imported song stays unlocked", never "yours".
+- Song length is "about a minute". There is no length option and every song costs the
+  same. Never "1 to 2 minutes" or a requested length.
+- Genres: pop, folk, hip-hop, jazz, indie, R&B, rock, electronic, classical and country,
+  plus a random pick and a free-text custom style. Onboarding offers three of them.
 - No background or lock-screen playback for real songs. Lock-screen copy applies to
   generated songs only.
 - The no-ads claim is scoped to the app. The embedded YouTube player can show YouTube's

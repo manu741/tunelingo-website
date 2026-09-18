@@ -4,6 +4,7 @@ h1: "Duolingo alternatives that actually make it stick"
 description: "Duolingo alternatives compared by what you are actually missing: structure, speaking, retention, or language count. Honest about where each falls short."
 slug: "duolingo-alternatives"
 publishedAt: "2026-08-28"
+updatedAt: "2026-09-18"
 targetKeyword: "duolingo alternatives"
 relatedPosts:
   - "lingopie-alternatives"
@@ -16,7 +17,7 @@ faq:
   - q: "Do I have to quit Duolingo to use something else?"
     a: "No, and most people don't. Duolingo is good at the hardest part, which is getting you to show up daily. Keep the streak, add a second app for whatever it isn't giving you."
   - q: "What is the best Duolingo alternative for learning with music?"
-    a: "Tunelingo, which is ours, and it's the only app on this list built around music. It writes you an original song in the language you're learning at whatever level you pick, and subscribers can import real songs from YouTube and study those the same way, with synced lyrics and translations under every line."
+    a: "Tunelingo, which is ours, and it's the only app on this list built around music. It writes you an original song in the language you're learning at whatever level you pick, and you can import real songs from YouTube and study those the same way, with synced lyrics and translations under every line. Your first import is free, and after that imports are included with Tunelingo Pro."
   - q: "Why are so many people looking for Duolingo alternatives right now?"
     a: "A few things landed at once. Duolingo pushed hard into AI features, added pricier tiers, and changed how much free users can practise in one sitting. None of that created the frustration, but it gave people who already had some a reason to go looking."
 ---
@@ -69,9 +70,9 @@ Everything else on this list is a drill. Some are better drills than Duolingo, b
 
 So the app writes you a song. Pick your language, a level from A1 to C2, a genre, and roughly what it should be about. A minute later you get a real track with word by word karaoke, a pronunciation guide, and a translation under each line. Tap any word for its meaning, a grammar note and an example, then save it. Saved words become flashcards on a spaced repetition schedule, and the ones you keep fumbling come back inside your next song.
 
-Subscribers can bring their own, too. Search YouTube or paste a link, and a song you already love gets the same treatment: synced lyrics, phonetics, translations, tap anything to save it. Included with your subscription at no extra cost.
+You can bring your own, too. Search YouTube or paste a link, and a song you already love gets the same treatment: synced lyrics, phonetics, translations, tap anything to save it. Your first import is free and stays unlocked. After that, imports are included with Tunelingo Pro at no extra cost.
 
-Now the honest part. Thirteen languages, not forty. It isn't a grammar course and won't walk you through the subjunctive, so it belongs next to something structured rather than instead of it. Real songs need an active subscription, and they play in the embedded YouTube player, which means no background or lock screen playback for those, and YouTube can show its own ads. Sync is word level on most tracks, line level on some.
+Now the honest part. Thirteen languages, not forty. It isn't a grammar course and won't walk you through the subjunctive, so it belongs next to something structured rather than instead of it. Beyond your first free import, real songs need an active Pro subscription, and they play in the embedded YouTube player, which means no background or lock screen playback for those, and YouTube can show its own ads. Sync is word level on most tracks, line level on some.
 
 If you want a curriculum, use Babbel. If you want sixty languages, use Ling. If your problem is vocabulary evaporating, that's the specific thing we built for, and you can [learn a language with music](/) free for your first song. There's a sample track that plays before you make an account, so you can hear what it actually sounds like without handing anything over.
 

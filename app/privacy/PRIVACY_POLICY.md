@@ -1,7 +1,7 @@
 # Tunelingo Privacy Policy
 
 **Effective date:** 25 July 2026
-**Last updated:** 1 September 2026
+**Last updated:** 18 September 2026
 
 Tunelingo is a language-learning app that generates personalized songs to help you learn languages. It is operated by **Dombyte Studio**, established in the Netherlands and registered with the Dutch Chamber of Commerce (KvK) under number 42083302 ("Tunelingo", "we", "us", "our"). Dombyte Studio is the data controller for the personal data described in this policy.
 
@@ -14,7 +14,7 @@ This policy explains what data we collect when you use the Tunelingo mobile app 
 ## 1. Summary
 
 - We collect the data needed to run your account, generate your songs, sync your learning progress, and process your purchases.
-- Song generation uses third-party AI services. Your song request (language, level, genre, topic text, duration) is sent to those services **without your name, email, or any account identifier**.
+- Song generation uses third-party AI services. Your song request (language, level, genre, topic text) is sent to those services **without your name, email, or any account identifier**.
 - Your data is stored on servers located in the **European Union**.
 - We use analytics (Amplitude, EU servers) and crash reporting (Firebase Crashlytics) to improve the app. Analytics events **never contain your prompts, lyrics, or any text you type**.
 - We do **not** show ads, we do **not** sell your personal data, and we do **not** track you across other companies' apps or websites. (When you play an imported song, YouTube's embedded player may show YouTube's own ads — see Section 5.3.)
@@ -43,7 +43,7 @@ If you sign in with **Google**, we receive your Google account email address and
 
 ### 2.3 Content you create and learning activity
 
-- **Song requests** — the choices and text you enter when generating a song: target language, level, genre/mood, topic or custom idea text, and requested duration.
+- **Song requests** — the choices and text you enter when generating a song: target language, level, genre/mood, and topic or custom idea text.
 - **Generated songs** — the resulting audio, cover image, lyrics, phonetics, and translations, saved to your library.
 - **Imported songs (Real songs)** — if you import a song from YouTube, we store the video's public metadata (title, channel name, thumbnail, duration, and video ID), the prepared lesson around it (synced lyrics, phonetics, translations, and vocabulary annotations), and your library link to it. Like generated songs, a prepared lesson is shared content: a song already prepared for the same language pair is reused rather than prepared again. See Section 5.3 for how YouTube data is handled.
 - **Saved vocabulary** — words you save from song lyrics, together with your flashcard study history (ratings and review schedule).
@@ -154,7 +154,7 @@ When you generate a song, our servers (not your device) call the following servi
 
 | Provider | Purpose | Data sent |
 |---|---|---|
-| **DeepSeek** | Writing the lyrics, translations, phonetics, and vocabulary annotations | Your song request content: target language, native language, level, genre, topic/idea text, requested duration |
+| **DeepSeek** | Writing the lyrics, translations, phonetics, and vocabulary annotations | Your song request content: target language, native language, level, genre, topic/idea text, and a target song length set by our servers |
 | **kie.ai (Suno)** | Generating the music and cover art from the lyrics | The generated lyrics and style/genre description |
 | **ElevenLabs** | Aligning word-level timestamps to the finished audio | The generated audio file and lyric lines |
 
