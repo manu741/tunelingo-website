@@ -205,7 +205,7 @@ export default function Home() {
           Pricing
         </p>
         <h2 className="mt-3.5 font-serif text-[clamp(28px,7vw,34px)] font-bold leading-[1.15] text-pretty md:text-[40px]">
-          Your first songs are on us
+          Start free, subscribe when it sticks
         </h2>
         <div className="mt-12 grid grid-cols-[repeat(auto-fit,minmax(280px,1fr))] gap-[22px]">
           {PRICING.map((tier) => (
@@ -300,7 +300,7 @@ export default function Home() {
           <div className="flex-[1_1_360px]">
             <h2 className="text-[21px] font-bold">Be first to hear it 🎧</h2>
             <p className="mt-2 text-[15px] leading-[1.6] text-text-3">
-              New languages, new genres, launch pricing and learning tips,
+              New languages, new genres, new features and learning tips,
               straight to your inbox. No spam, just bangers.
             </p>
           </div>

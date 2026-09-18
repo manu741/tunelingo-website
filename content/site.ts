@@ -71,7 +71,7 @@ export const FEATURES: {
     glyph: "▶",
     brand: "youtube",
     title: "Real songs from YouTube",
-    body: "Already have a favorite? Import songs from YouTube, search or paste a link, and study them with the same synced lyrics, translations and flashcards. Included with your subscription at no extra cost.",
+    body: "Already have a favorite? Import songs from YouTube, search or paste a link, and study them with the same synced lyrics, translations and flashcards. Your first import is free, and after that it’s included with Tunelingo Pro at no extra cost.",
   },
   {
     glyph: "🎤",
@@ -112,19 +112,19 @@ export const PRICING = [
   },
   {
     step: "Step 2",
-    title: "Sign up, get a credit",
-    price: "1 song free",
+    title: "Bring a song you love",
+    price: "1 import free",
     priceAccent: false,
-    body: "Create an account and your first full song, your language, your genre, your level, is free. Still no card.",
+    body: "Create an account and import one real song from YouTube for free. It stays unlocked on your account, with synced lyrics and translations. Still no card.",
     highlighted: true,
     hasEmailLink: false,
   },
   {
     step: "Step 3",
     title: "Keep the music going",
-    price: "From $4.99/mo",
+    price: "$6.99/mo",
     priceAccent: false,
-    body: "Subscribe for new songs every month: Starter is $4.99 a month, Plus is $9.99, and yearly plans cost less. Or buy song credit bundles, starting at $4.99 for five.",
+    body: "Tunelingo Pro: 7 day free trial, then $6.99 a month or $59.99 a year. Auto-renews, cancel anytime. You get 8 new songs a month, with YouTube imports included. Prefer no subscription? Credit bundles start at $4.99 for five songs, with up to 40% off for Pro members.",
     highlighted: false,
     hasEmailLink: false,
   },
@@ -133,7 +133,7 @@ export const PRICING = [
 export const FAQS = [
   {
     q: "Do I need an account to try it?",
-    a: "Nope. Open the app and you get a free sample song immediately, no account, no email, no credit card. Sign up when you want a song made just for you.",
+    a: "Nope. Open the app and you get a free sample song immediately, no account, no email, no credit card. Create an account when you want to save your progress and import your first song from YouTube for free.",
   },
   {
     q: "Which languages can I learn?",
@@ -145,7 +145,7 @@ export const FAQS = [
   },
   {
     q: "Do I get to pick the music style?",
-    a: "Yes, that’s the point! Pick from genres like pop, indie, rap, R&B, jazz or reggaetón, or just type in your own if it’s not on the list. The AI composes an original song in that style, in your target language.",
+    a: "Yes, that’s the point! Pick from genres like pop, indie, hip-hop, R&B, jazz, rock or country, or just type in your own if it’s not on the list, reggaetón included. The AI composes an original song in that style, in your target language.",
   },
   {
     q: "How does the learning part work?",
@@ -153,7 +153,7 @@ export const FAQS = [
   },
   {
     q: "What does it cost?",
-    a: "A sample song is free instantly, and signing up gets you one full song credit free, no card needed. After that, subscribe for new songs every month: Starter is $4.99 a month, Plus is $9.99 a month, and both cost less on yearly plans. Prefer one-offs? Song credit bundles start at $4.99 for five songs. Importing songs from YouTube is included with your subscription at no extra cost.",
+    a: "A sample song is free instantly, and every account can import one song from YouTube for free, no card needed. That first imported song stays unlocked. After that there’s one plan, Tunelingo Pro: a 7 day free trial, then $6.99 a month or $59.99 a year, auto-renewing until you cancel. Pro gives you 8 new songs a month, each about a minute long, and importing songs from YouTube is included at no extra cost. Prefer one-offs? Credit bundles are $4.99 for 5 songs, $12.99 for 15 or $33.99 for 40, credits never expire, and Pro members pay up to 40% less. If Pro ends, the songs you generated and every word you saved stay yours. Imported songs lock until you subscribe again, except your first one.",
   },
 ];
 
