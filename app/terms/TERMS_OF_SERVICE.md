@@ -1,7 +1,7 @@
 # Tunelingo Terms of Service
 
-**Effective date:** 14 August 2026
-**Last updated:** 14 August 2026
+**Effective date:** [RELEASE DATE]
+**Last updated:** [RELEASE DATE]
 
 These Terms of Service ("Terms") govern your use of the Tunelingo mobile application and website (the "Service"), operated by **Dombyte Studio**, established in the Netherlands and registered with the Dutch Chamber of Commerce (KvK) under number 42083302 ("Tunelingo", "we", "us", "our").
 
@@ -36,13 +36,14 @@ We continuously develop the Service and may add, change, or remove features. Whe
 
 ## 3. Subscriptions
 
-Tunelingo offers auto-renewing subscriptions ("**Starter**" and "**Plus**"), billed monthly or yearly through the Apple App Store or Google Play:
+Tunelingo offers one auto-renewing subscription, **Tunelingo Pro** ("Pro"), billed monthly or yearly through the Apple App Store or Google Play:
 
-- Each subscription includes a **monthly allowance of song generations** (as shown on the paywall at the time of purchase). **Unused allowance expires at the end of each monthly cycle** — it does not roll over, accumulate, or convert into credits. This applies to yearly plans too: yearly billing changes how you pay, not how the monthly allowance works.
-- Each subscription also includes access to **Real songs** (Section 6) at no additional charge. This access lasts only while the subscription is active. Imported songs are not purchased and do not become yours: see Section 6.4.
+- Pro includes **8 song generations per month**. **Unused songs expire at the end of each monthly cycle** — they do not roll over, accumulate, or convert into credits. This applies to the yearly plan too: yearly billing changes how you pay, not how the monthly allowance works (8 songs each month, not 96 up front).
+- Pro also includes access to **Real songs** (Section 6) at no additional charge. This access lasts only while Pro is active. Imported songs are not purchased and do not become yours: see Section 6.4.
+- **Free trial:** new Pro subscribers may be offered a **7-day free trial**. Starting the trial requires a valid payment method on your store account. The trial gives you full Pro access, including the monthly song allowance. **Unless you cancel at least 24 hours before the trial ends, your subscription starts automatically and the store charges the price shown when you started the trial.** Apple and Google allow one trial per store account; if you have already used a trial, the paywall shows the paid price instead.
 - Prices are shown in the app before purchase. The store may charge in your local currency and applicable taxes may be added, per the store's rules.
 - **Auto-renewal:** subscriptions renew automatically at the end of each billing period unless cancelled at least 24 hours before the period ends. Payment is charged to your App Store or Google Play account.
-- **Cancelling:** manage or cancel your subscription in your App Store or Google Play subscription settings — cancelling in your device settings is the only way to stop renewal; deleting the app or your Tunelingo account does **not** cancel a store subscription. After cancelling, you keep subscription access until the end of the paid period.
+- **Cancelling:** manage or cancel your subscription in your App Store or Google Play subscription settings — cancelling in your device settings is the only way to stop renewal; deleting the app or your Tunelingo account does **not** cancel a store subscription. After cancelling, you keep Pro access until the end of the paid period (or of the trial).
 - **Price changes:** if we change subscription prices, the change applies per the store's price-change rules, which include advance notice and, where required, your consent. If you do not agree, you can cancel before the new price takes effect.
 
 ---
@@ -51,10 +52,10 @@ Tunelingo offers auto-renewing subscriptions ("**Starter**" and "**Plus**"), bil
 
 You can also buy one-time **credit bundles**:
 
-- Bundle credits are prepaid song-generation credits. They **do not expire** and **remain yours if a subscription lapses or is cancelled**.
-- Discounted **member pricing** for bundles is available only while you hold an active Starter or Plus subscription.
-- Credits have no monetary value, are not exchangeable for cash, and are non-transferable. They can only be spent on song generation inside the Service. Credits do **not** unlock Real songs, which requires an active subscription (Section 6).
-- We may occasionally grant **free promotional credits** (for example, a welcome credit when you create an account). Promotional credits behave like bundle credits unless we state otherwise when granting them, and promotional offers may be changed or withdrawn at any time for new accounts.
+- Bundle credits are prepaid song-generation credits. **One credit makes one song.** They **do not expire** and **remain yours if a subscription lapses or is cancelled**.
+- Discounted **Pro pricing** for bundles is available while your Pro subscription is active, including during the free trial.
+- Credits have no monetary value, are not exchangeable for cash, and are non-transferable. They can only be spent on song generation inside the Service. Credits do **not** unlock Real songs beyond the one free import every account has (Section 6.1).
+- We may occasionally grant **free promotional credits**. Promotional credits behave like bundle credits unless we state otherwise when granting them, and promotional offers may be changed or withdrawn at any time for new accounts.
 
 ---
 
@@ -62,14 +63,13 @@ You can also buy one-time **credit bundles**:
 
 This section applies to songs you generate. Songs you import with the Real songs feature are covered by Section 6; importing never consumes your allowance and never costs credits.
 
-- Generating a song consumes **one song from your subscription allowance** (used first, when available) **or one credit**. Songs with a requested length of **2 minutes or more consume two credits** when paid with credits; a subscription-allowance song always counts as **one** song regardless of length.
+- Generating a song consumes **one song from your Pro allowance** (used first, when available) **or one credit**. Every song costs the same, whatever its length.
 - After you tap Generate, there is a short **cancellation window** during which you can cancel at no charge. Once the request is sent, the charge applies.
 - Generation is **asynchronous** and typically takes up to a few minutes. We do our best to make generation fast and reliable, but generation times are not guaranteed.
 - **Failed generations are automatically refunded** to your credit balance (or your allowance is not consumed). You do not need to contact support for a failed song.
-- **Song length is an estimate.** The duration you select is a target passed to the AI music provider, not a guarantee — generated songs almost never match the requested length exactly and may come out shorter or longer. Requesting a duration does not entitle you to a song of exactly that length.
-- **Short-delivery refund:** if you paid two credits for a 2-minute-plus song and the delivered song is shorter than 2 minutes, the one-credit difference is **refunded automatically**.
+- **Song length is not selectable.** Generated songs are about a minute long; the exact length is chosen automatically and varies from song to song. Length is not a basis for a refund.
 - **Content review:** song requests pass through automated safety review. A request that is declined (for example, because the topic violates Section 9) is treated as a failed generation and refunded. Repeated attempts to generate prohibited content may lead to account action under Section 11.
-- **Identical requests may produce shared songs.** To keep the Service affordable, an identical song request (same language, level, genre, text, and settings) may be fulfilled with a previously generated song rather than a brand-new generation, and songs you generate may likewise be served to other users who make an identical request. Section 8 explains what rights you have in generated songs.
+- **Identical requests may produce shared songs.** To keep the Service affordable, an identical song request (same language, level, genre, text, and settings) may be fulfilled with a previously generated song rather than a brand-new generation, and songs you generate may likewise be served to other users who make an identical request. A shared song costs the same as a new one. Section 8 explains what rights you have in generated songs.
 
 ---
 
@@ -79,9 +79,10 @@ This section applies to songs you generate. Songs you import with the Real songs
 
 ### 6.1 Who can use it, and what it costs
 
-- Real songs is available **only while you hold an active Starter or Plus subscription**.
-- Importing a song does **not** consume your monthly song allowance and does **not** cost credits. It is included in your subscription at no additional charge.
-- Credit bundles alone do not unlock Real songs. A credits-only account cannot import songs.
+- Real songs is **included with Tunelingo Pro** (Section 3), during the free trial as well as in paid periods.
+- **Every account may import one song without a subscription.** That first imported song stays playable on your account whatever happens to your subscription later (Section 6.4). The free import is counted per account for its lifetime: deleting the song does not give the free import back.
+- Importing a song does **not** consume your monthly song allowance and does **not** cost credits. It is included in Pro at no additional charge.
+- Credit bundles alone do not unlock Real songs beyond the free import. A credits-only account cannot import further songs.
 - Import capacity is subject to fair use and to limits our third-party providers place on us. **We do not offer unlimited imports**, and we may apply daily or per-account limits so the feature stays available to everyone.
 
 ### 6.2 How importing works
@@ -100,11 +101,11 @@ This section applies to songs you generate. Songs you import with the Real songs
 
 ### 6.4 Imported songs are access, not a purchase
 
-You never buy an imported song. It is not paid for with credits or with your monthly allowance, so access to imported songs depends on holding an active subscription.
+You never buy an imported song. It is not paid for with credits or with your monthly allowance, so access to imported songs depends on holding an active Pro subscription — with one exception: **the first song you ever imported stays unlocked** (Section 6.1).
 
-- If your subscription ends, lapses, or is cancelled, **imported real songs stay visible in your library but are locked** and cannot be played or studied until you subscribe again. We do not delete them.
+- If your subscription ends, lapses, or is cancelled (including when a free trial ends without converting), **your other imported real songs stay visible in your library but are locked** and cannot be played or studied until you subscribe again. We do not delete them.
 - If you subscribe again, access to your imported songs is restored at no extra charge.
-- **You keep, whatever happens to your subscription:** every word you have saved (including words saved from real songs), your review progress, your streaks, statistics, and level progress, and every song you generated using your allowance or your credits.
+- **You keep, whatever happens to your subscription:** every word you have saved (including words saved from real songs), your review progress, your streaks, statistics, and level progress, every song you generated using your allowance or your credits, and your first imported real song.
 
 This is disclosed on the paywall before you purchase.
 
