@@ -41,6 +41,7 @@ Two parameters are fixed and never vary:
 | `/learn-{language}-with-music` | `{language}-page` |
 | `/blog/{slug}` | `blog-{slug}` |
 | `/blog/duolingo-alternatives` | `blog-duolingo-alternatives` |
+| `/blog/does-music-help-language-learning` | `blog-does-music-help-language-learning` |
 
 ### Google Play
 
