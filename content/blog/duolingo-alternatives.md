@@ -74,7 +74,7 @@ You can bring your own, too. Search YouTube or paste a link, and a song you alre
 
 Now the honest part. Thirteen languages, not forty. It isn't a grammar course and won't walk you through the subjunctive, so it belongs next to something structured rather than instead of it. Beyond your first free import, real songs need an active Pro subscription, and they play in the embedded YouTube player, which means no background or lock screen playback for those, and YouTube can show its own ads. Sync is word level on most tracks, line level on some.
 
-If you want a curriculum, use Babbel. If you want sixty languages, use Ling. If your problem is vocabulary evaporating, that's the specific thing we built for, and you can [learn a language with music](/) free for your first song. There's a sample track that plays before you make an account, so you can hear what it actually sounds like without handing anything over.
+If you want a curriculum, use Babbel. If you want sixty languages, use Ling. If your problem is vocabulary evaporating, that's the specific thing we built for, and you can [learn a language with music](/) before paying anything. There's a sample track that plays before you make an account, so you can hear what it actually sounds like without handing anything over, and once you sign up your first YouTube import is free.
 
 ## If your language is barely supported
 
@@ -90,4 +90,4 @@ If you left because you were bored, don't reach for the most serious app on the 
 
 And if you didn't really want to leave at all, don't. Duolingo is very good at getting people to show up every day, which is the part almost everyone fails at. Keep the streak. Add a second app for the bit it doesn't do.
 
-Tunelingo runs on [iOS and Android](/#download), covers thirteen languages, and the first song is free. [Here's how it works](/#how) if you want the short version.
+Tunelingo runs on [iOS and Android](/#download), covers thirteen languages, and your first YouTube import is free. [Here's how it works](/#how) if you want the short version.
