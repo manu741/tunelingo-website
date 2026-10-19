@@ -1,7 +1,7 @@
 # Tunelingo Privacy Policy
 
 **Effective date:** 25 July 2026
-**Last updated:** 18 September 2026
+**Last updated:** 15 October 2026
 
 Tunelingo is a language-learning app that generates personalized songs to help you learn languages. It is operated by **Dombyte Studio**, established in the Netherlands and registered with the Dutch Chamber of Commerce (KvK) under number 42083302 ("Tunelingo", "we", "us", "our"). Dombyte Studio is the data controller for the personal data described in this policy.
 
@@ -17,7 +17,8 @@ This policy explains what data we collect when you use the Tunelingo mobile app 
 - Song generation uses third-party AI services. Your song request (language, level, genre, topic text) is sent to those services **without your name, email, or any account identifier**.
 - Your data is stored on servers located in the **European Union**.
 - We use analytics (Amplitude, EU servers) and crash reporting (Firebase Crashlytics) to improve the app. Analytics events **never contain your prompts, lyrics, or any text you type**.
-- We do **not** show ads, we do **not** sell your personal data, and we do **not** track you across other companies' apps or websites. (When you play an imported song, YouTube's embedded player may show YouTube's own ads — see Section 5.3.)
+- We do **not** show ads in Tunelingo and we do **not** sell your personal data. (When you play an imported song, YouTube's embedded player may show YouTube's own ads — see Section 5.3.)
+- We advertise Tunelingo on other platforms, such as Facebook, Instagram, and Google. To see which of **our own ads** bring people to the app, we use **ad measurement** with Meta and Google — in the EU/EEA, the UK and Switzerland only after you allow it, elsewhere unless you switch it off. Your songs, words, prompts, and email are never part of it. You can change your choice anytime in **Settings → Privacy & Data → Ad measurement** (Section 2.10).
 - The app stores information on your device (sign-in tokens, settings, and content caches), and the embedded YouTube player may place, access, or recognize cookies or similar technologies on your device — see Section 2.9.
 - You can delete your account at any time in the app (Settings → Delete account). Deletion becomes permanent after a 14-day recovery window.
 
@@ -77,7 +78,8 @@ If you email us, we receive your email address and the contents of your message,
 
 - **No microphone access.** The app never records audio; the microphone permission is explicitly removed from the app.
 - **No location data, no contacts, no photos.**
-- **No advertising identifiers, no ads, no cross-app tracking.**
+- **No ads in Tunelingo.**
+- **No Apple advertising identifier (IDFA).** The app does not ask for Apple's tracking permission and never reads the IDFA. On Android, the advertising ID is read only for ad measurement, and only when ad measurement is allowed (Section 2.10).
 - **No user-generated text in analytics.** Analytics events contain only predefined choices, counts, and flags — never your prompt text, lyrics, or search input.
 - We do **not sell** personal data and never have.
 
@@ -89,11 +91,32 @@ The Tunelingo app stores, accesses, and collects information on your device to m
 - **Settings, preferences, and app state** — stored in the app's local storage so the app remembers your choices between sessions.
 - **Content caches** — generated song audio and cover images, and metadata for songs in your library (including YouTube video metadata such as titles and thumbnails for imported songs), cached locally so the app loads quickly and playback is smooth.
 - **Analytics device identifier** — the identifier described in Section 4, generated and stored on your device by the analytics SDK and reset when you sign out.
+- **Ad measurement** — when ad measurement is allowed (Section 2.10), Meta's SDK and Google Analytics for Firebase each store an anonymous identifier on your device, and Meta's SDK reads the device's advertising ID on Android. Your ad measurement choice itself is also stored on your device.
 - **Embedded YouTube player (Real songs)** — imported songs play in YouTube's official embedded player, which runs in a web view on your device. When you use it, **YouTube (Google) may place, access, or recognize cookies, local storage, or similar technologies on your device** and may collect device information, as described in the [Google Privacy Policy](https://policies.google.com/privacy). We do not control what the embedded player stores or reads.
 
 Data Tunelingo itself stores on your device is removed when you uninstall the app. Cookies or similar data stored through the embedded YouTube player are managed by your operating system's web view and by Google; you can clear them through your device's storage settings.
 
 The Tunelingo **website** uses cookieless, privacy-friendly analytics (no advertising cookies, no cross-site tracking).
+
+### 2.10 Ad measurement
+
+We advertise Tunelingo on platforms such as Facebook and Instagram (Meta) and Google (Google Ads). To see which of our ads lead people to install the app, sign up, or start a trial — and to stop paying for ads that don't work — we measure our ads with Meta and with Google Analytics for Firebase. This is about **our own ads elsewhere**; Tunelingo does not show ads.
+
+**When it runs:**
+
+- **In the EU/EEA, the UK, and Switzerland** (based on your device's region setting): only after you tap **Allow** in the app. Until then, and if you choose not to allow it, nothing is sent to Meta or Google for ad measurement.
+- **Everywhere else:** it runs unless you switch it off.
+- **Everywhere:** you can change your choice anytime in **Settings → Privacy & Data → Ad measurement**. Switching it off stops the app from sending anything further and removes the Meta and Google identifiers from your purchase record at RevenueCat.
+
+**What is shared when it runs:**
+
+- From the app, through Meta's SDK and Google Analytics for Firebase: that the app was installed and opened, that you signed up (and with which method: email, Google, or Apple), and that you completed the introduction — together with an anonymous identifier per network stored on your device, basic device information (such as device model, operating system, and app version), and your IP address. On **Android**, Meta's SDK also reads the device's advertising ID. On **iPhone**, the app does not ask for Apple's tracking permission and never reads the advertising identifier (IDFA); Meta's SDK runs in its mode for users who are not tracked, Google Analytics is built without advertising-identifier support, and installs are also measured through Apple's SKAdNetwork, which reports to the ad network only in aggregate.
+- From RevenueCat, on our behalf: when you start a free trial, subscribe, renew, or buy credits — with the anonymous identifier of the network, the product, and the price.
+- On iPhone, RevenueCat also uses Apple's own ad attribution (Apple Ads) to show us which Apple Ads campaign an install came from.
+
+**Never shared:** your name, email address, songs, lyrics, saved words, prompts, search terms, or anything else you type.
+
+Meta receives this data under the Meta Business Tools Terms and processes it under its own [Privacy Policy](https://www.facebook.com/privacy/policy). For the collection and transmission of this data through its tools, Meta and Dombyte Studio may act as joint controllers; Meta is responsible for its own further processing. Google receives this data under the Google Ads Data Processing Terms and processes it under the [Google Privacy Policy](https://policies.google.com/privacy).
 
 ---
 
@@ -110,6 +133,7 @@ Under the EU General Data Protection Regulation (GDPR), we process your personal
 | Sending you a push notification when your song is ready | Push token | Performance of a contract (and your OS-level notification permission) |
 | Service emails (confirmation, password reset) | Email address | Performance of a contract |
 | Understanding how the app is used and improving it | Analytics events (Section 4) | Legitimate interest (Art. 6(1)(f)) — improving our product |
+| Measuring which of our own ads lead to installs, sign-ups, and trials | Ad measurement data (Section 2.10) | In the EU/EEA, the UK, and Switzerland: your consent (Art. 6(1)(a)), which you can withdraw anytime in Settings. Elsewhere: legitimate interest — measuring and improving our advertising — which you can object to by switching ad measurement off in Settings |
 | Diagnosing crashes and errors | Crash data | Legitimate interest — keeping the app working |
 | Preventing fraud and abuse (e.g. duplicate refunds, quota enforcement) | Account, purchase, and generation records | Legitimate interest — protecting the service |
 | Understanding account deletions | Anonymized deletion snapshot, optional exit reason | Legitimate interest — improving the product |
@@ -135,7 +159,7 @@ What Amplitude never receives: your email, your name, your prompt text, lyrics, 
 
 ## 5. Who we share data with (processors and recipients)
 
-We share personal data only with the service providers below, only to the extent needed for the stated purpose. We do not sell personal data or share it for advertising.
+We share personal data only with the service providers below, only to the extent needed for the stated purpose. We do not sell personal data. The only sharing for advertising purposes is ad measurement of our own ads with Meta and Google, as described in Section 2.10 — and only when ad measurement is allowed.
 
 ### 5.1 Infrastructure and operations
 
@@ -144,7 +168,9 @@ We share personal data only with the service providers below, only to the extent
 | **Supabase** | Database, authentication, file storage, and server-side functions — the core backend of Tunelingo | All account, profile, content, activity, and purchase-state data | Hosted in the **EU** |
 | **Amplitude** | Product analytics | Usage events, internal user ID, limited user properties (Section 4) | **EU** data residency |
 | **Google Firebase (Crashlytics)** | Crash and error reporting | Crash reports, device/OS/app version, internal user ID | Google infrastructure (may include the US) |
-| **RevenueCat** | In-app purchase and subscription management | Internal user ID, purchase history, subscription status | US |
+| **RevenueCat** | In-app purchase and subscription management; when ad measurement is allowed, forwarding trial and purchase events to Meta and Google and reading Apple Ads attribution (Section 2.10) | Internal user ID, purchase history, subscription status; the anonymous Meta and Google identifiers while ad measurement is allowed | US |
+| **Meta Platforms** (Facebook SDK, Conversions API) | Ad measurement of our own ads — only when allowed (Section 2.10) | App install, open, sign-up, and introduction-completed events; trial and purchase events (via RevenueCat); anonymous Meta identifier; device information; IP address; on Android, the advertising ID | Meta Platforms Ireland Ltd.; may include the US |
+| **Google** (Google Analytics for Firebase, Google Ads) | Ad measurement of our own ads — only when allowed (Section 2.10) | App install, open, sign-up, and introduction-completed events; trial and purchase events (via RevenueCat); anonymous Firebase app instance identifier; device information; IP address | Google Ireland Ltd.; may include the US |
 | **Expo (Expo Application Services)** | Delivering push notifications | Push token, notification content ("your song is ready") | US |
 | **Apple / Google** | Sign-in (optional) and payment processing | Sign-in identity; all payment details (handled entirely by them under their own privacy policies) | Per their policies |
 
@@ -181,7 +207,7 @@ We may disclose personal data if required by law, court order, or governmental a
 
 Your data is primarily stored and processed in the **European Union** (Supabase EU hosting, Amplitude EU data residency).
 
-Some of the providers listed above are located outside the European Economic Area, including the United States (RevenueCat, Expo, Google/Firebase, ElevenLabs) and other jurisdictions (DeepSeek, kie.ai). Where personal data is transferred outside the EEA, we rely on appropriate safeguards, such as the European Commission's Standard Contractual Clauses or the provider's certification under the EU–US Data Privacy Framework, where applicable. The AI generation services in Section 5.2 receive song content only, not data linked to your account identity.
+Some of the providers listed above are located outside the European Economic Area, including the United States (RevenueCat, Expo, Google/Firebase, ElevenLabs, and Meta and Google for ad measurement) and other jurisdictions (DeepSeek, kie.ai). Where personal data is transferred outside the EEA, we rely on appropriate safeguards, such as the European Commission's Standard Contractual Clauses or the provider's certification under the EU–US Data Privacy Framework, where applicable. The AI generation services in Section 5.2 receive song content only, not data linked to your account identity.
 
 ---
 
@@ -193,6 +219,7 @@ Some of the providers listed above are located outside the European Economic Are
 | Push notification token | Deleted when you sign out (and with your account) |
 | Analytics data (Amplitude) | Retained per our analytics configuration; identity is keyed to your internal user ID, and the device identifier is rotated on sign-out |
 | Crash reports (Crashlytics) | Retained for the limited period Firebase Crashlytics keeps crash data |
+| Ad measurement data (Meta, Google) | Retained by Meta and Google under their own policies; switching ad measurement off stops new data and removes their identifiers from your RevenueCat purchase record |
 | Purchase and transaction records | Retained as required by Dutch tax and bookkeeping law (in general, seven years), and by Apple, Google, and RevenueCat under their own policies |
 | Technical generation logs | Server-side logs of song-generation pipeline calls, used for debugging; the link to your account is removed when your account is deleted |
 | YouTube video metadata (Real songs) | Refreshed or deleted within 30 days (Section 5.3); your library link to an imported song is deleted with your account |
@@ -228,8 +255,8 @@ Under the GDPR you have the right to:
 - **Erasure** — delete your data (Section 8, or by email).
 - **Restriction** — ask us to restrict processing in certain circumstances.
 - **Data portability** — receive the data you provided in a structured, commonly used, machine-readable format.
-- **Objection** — object to processing based on our legitimate interests, including analytics and crash reporting.
-- **Withdraw consent** — where processing is based on consent (e.g. OS-level notification permission), withdraw it at any time; for notifications, disable them in your device settings.
+- **Objection** — object to processing based on our legitimate interests, including analytics, crash reporting, and (outside the EU/EEA, the UK, and Switzerland) ad measurement — the last one directly in Settings.
+- **Withdraw consent** — where processing is based on consent, withdraw it at any time: for ad measurement in **Settings → Privacy & Data → Ad measurement**; for notifications, disable them in your device settings.
 
 To exercise any of these rights, email [legal@tunelingo.app](mailto:legal@tunelingo.app). We will respond within one month as required by the GDPR. We may need to verify your identity (normally by confirming control of your account's email address) before acting on a request.
 
