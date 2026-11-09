@@ -4,6 +4,7 @@ h1: "Does music help language learning? What the research says"
 description: "Does music help language learning? Yes, for vocabulary, pronunciation and showing up every day. Here is what the studies found, and where songs fall short."
 slug: "does-music-help-language-learning"
 publishedAt: "2026-09-18"
+updatedAt: "2026-11-09"
 targetKeyword: "does music help language learning"
 relatedPosts:
   - "why-song-lyrics-stick-in-your-head"
@@ -37,7 +38,7 @@ In 2014, researchers at the University of Edinburgh took sixty adults and gave t
 
 An earlier experiment, published in *Cognition* in 2008, looked at something more basic. When you hear a language you don't know, you can't tell where one word stops and the next begins. It's all one stream. The researchers played people seven minutes of an invented language. [Spoken, seven minutes wasn't enough to start picking out the words. Sung, with each syllable on its own pitch, it was](https://pubmed.ncbi.nlm.nih.gov/17475231/). The melody was doing part of the work of carving the stream into pieces.
 
-And then a finding that explains a lot about why songs behave the way they do in your head. A 1994 memory study found that [text is recalled better as a song than as speech, but only when the melody repeats](https://www.semanticscholar.org/paper/Memory-for-music:-Effect-of-melody-on-recall-of-Wallace/bbd36596cf39f88c1f3066526a96561b4768f484). Three verses on the same tune beat the spoken version. One verse, or a different tune for every verse, and the spoken version won. The tune has to become familiar before it starts carrying the words.
+And then a finding that explains a lot about why songs behave the way they do in your head. A 1994 memory study found that [text is recalled better as a song than as speech, but only when the melody repeats](https://www.semanticscholar.org/paper/Memory-for-music:-Effect-of-melody-on-recall-of-Wallace/bbd36596cf39f88c1f3066526a96561b4768f484). Three verses on the same tune beat the spoken version. One verse, or a different tune for every verse, and the spoken version won. The tune has to become familiar before it starts carrying the words. If you want the mechanism behind that, I went through the memory research in a separate post on [why song lyrics stick in your head](/blog/why-song-lyrics-stick-in-your-head).
 
 Now the part that usually gets left out. Not every study agrees. A 2007 experiment had people learn lines from unfamiliar folk songs, [sung or spoken, and singing gave no advantage at all](https://link.springer.com/article/10.3758/BF03193445). These are also small lab studies measuring minutes and days, not people reaching fluency over years.
 

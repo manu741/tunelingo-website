@@ -42,6 +42,7 @@ Two parameters are fixed and never vary:
 | `/blog/{slug}` | `blog-{slug}` |
 | `/blog/duolingo-alternatives` | `blog-duolingo-alternatives` |
 | `/blog/does-music-help-language-learning` | `blog-does-music-help-language-learning` |
+| `/blog/why-song-lyrics-stick-in-your-head` | `blog-why-song-lyrics-stick-in-your-head` |
 
 ### Google Play
 
